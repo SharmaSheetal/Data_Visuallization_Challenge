@@ -129,14 +129,14 @@ html.Div([
 
 
 
-# Function to read the API key from the file
-def read_api_key(file_path):
-    with open(file_path, 'r') as file:
-        return file.read().strip()
+# # Function to read the API key from the file
+# def read_api_key(file_path):
+#     with open(file_path, 'r') as file:
+#         return file.read().strip()
 
 
-# Set up the OpenAI API
-openai.api_key = read_api_key('data/apikey.txt')
+# # Set up the OpenAI API
+# openai.api_key = read_api_key('data/apikey.txt')
 
 
 def generate_insights(df, categorical_feature, selected_values):
