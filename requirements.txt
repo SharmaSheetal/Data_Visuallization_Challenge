@@ -5,7 +5,6 @@ plotly
 pandas
 gunicorn
 plotly-express
-plotly-figure-factory
 numpy
 seaborn
 scipy
