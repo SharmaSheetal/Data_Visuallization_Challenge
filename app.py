@@ -23,7 +23,7 @@ top_5_common_name = df['Common Name'].value_counts().head(5).index.tolist()
 
 # App layout
 app = dash.Dash(__name__)
-
+server=app.server
 app.layout = html.Div([
     html.H4(
         "Buffalization Data Visualization Challenge",
